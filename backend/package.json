@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx tsx src/app.ts",
     "build": "tsc",
-    "start": "node dist/app.js",
+    "start": "tsx src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,7 +17,8 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.2",
     "express": "^5.1.0",
-    "pg": "^8.16.3"
+    "pg": "^8.16.3",
+    "tsx": "^4.20.5"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",

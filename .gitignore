@@ -1,0 +1,35 @@
+# 依赖文件
+node_modules/
+*/node_modules/
+
+# 环境变量文件 (重要！)
+.env
+*/.env
+.env*.local
+
+# 后端编译输出
+backend/dist/
+backend/build/
+
+# 前端构建文件
+mobile/TodoApp/.expo/
+mobile/TodoApp/dist/
+mobile/TodoApp/web-build/
+
+# 日志文件
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE文件
+.vscode/
+.idea/
+
+# TypeScript
+*.tsbuildinfo
+expo-env.d.ts

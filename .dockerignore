@@ -1,0 +1,26 @@
+# 忽略node_modules
+node_modules/
+*/node_modules/
+
+# 忽略git相关
+.git/
+.gitignore
+
+# 忽略环境变量
+.env
+*/.env
+
+# 忽略开发文件
+*.md
+.DS_Store
+
+# 忽略前端项目（只部署后端）
+mobile/
+
+# 忽略构建输出
+dist/
+build/
+
+# 忽略日志
+*.log
+npm-debug.log*
